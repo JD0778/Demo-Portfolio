@@ -1,6 +1,10 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono, Inter, Lemon } from "next/font/google";
 import "./globals.css";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+import longpic from "../public/hero/longpic.png";
+
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -38,7 +42,12 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${inter.variable} antialiased`}
       >
+        <Navbar/>
+        <div className="longpic-container">
+        <img src={longpic.src} alt="Long Pic" className="longpic" />
+        </div>
         {children}
+        <Footer/>
       </body>
     </html>
   );

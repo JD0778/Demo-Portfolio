@@ -4,9 +4,9 @@ import Link from 'next/link';
 function Navbar() {
   return (
     <nav className={styles.navbar}>
-    <p>Jaden De Almeida</p>
+    <p style={{color:'white'}}>Jaden De Almeida</p>
       <ul className={styles.list}>
-        <li>Home</li>
+        <Link href="/"><li>Home</li></Link>
         <li>About Me</li>
         <Link href="/projects"><li>Projects</li></Link>
       </ul>
