@@ -38,7 +38,7 @@ export default function Projects() {
                 <div className="project">
                     <div>
                         <h4>CTE Webpage</h4>
-                        <p>A new page for the NPS website that tries to keep the style of the website</p>
+                        <p>A new page for the NPS website that tries to keep the style of the original website</p>
                     </div>
                     <img src={rectangle.src} alt="Rectangle"/>
                 </div>

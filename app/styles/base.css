@@ -30,6 +30,11 @@
         line-height: 1.6;
     }
 
+    .home-container{
+        margin-left:10px;
+        margin-right:10px;
+    }
+
     .project{
         border-right: 1px solid gray;
         min-width:25%;
@@ -68,5 +73,24 @@
         padding:10px 20px;
         border:none;
         cursor:pointer;
+    }
+
+    .card{
+        background-color: white;
+        color:black;
+        border-width: 2px;
+        border-color:black;
+        padding:20px;
+        margin-bottom:20px;
+        width:25%;
+    }
+
+    .home-desc{
+        display:flex;
+        flex-direction: row;
+        justify-content: center;
+        gap:10px;
+        width:100%;
+       
     }
 }
