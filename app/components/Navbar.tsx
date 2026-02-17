@@ -7,8 +7,8 @@ function Navbar() {
     <p style={{color:'white'}}>Jaden De Almeida</p>
       <ul className={styles.list}>
         <Link href="/"><li>Home</li></Link>
-        <li>About Me</li>
         <Link href="/projects"><li>Projects</li></Link>
+        <Link href="/contact"><li>Contact</li></Link>
       </ul>
     </nav>
   );
